@@ -1,5 +1,7 @@
 const Joi= require('joi');
 const cors= require('cors');
+process.env.API_URL;
+
 const express = require ('express');
 const { get } = require('mongoose');
 // import express from 'express';
