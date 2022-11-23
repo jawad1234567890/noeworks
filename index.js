@@ -1,5 +1,5 @@
 const Joi= require('joi');
-const cors= require('corse');
+const cors= require('cors');
 const express = require ('express');
 const { get } = require('mongoose');
 // import express from 'express';
